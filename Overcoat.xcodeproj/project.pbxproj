@@ -32,16 +32,6 @@
 		FE0A7A051C8AADB1003DAA0C /* OvercoatCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEEF5B01C899E5C003BB99E /* OvercoatCoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE0A7A081C8AADC7003DAA0C /* Overcoat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEF5E71C8AAAA8003BB99E /* Overcoat.framework */; };
 		FE0A7A091C8AADCB003DAA0C /* MTLManagedObjectAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEF6021C8AAC7F003BB99E /* MTLManagedObjectAdapter.framework */; };
-		FE0A7A191C8AAE57003DAA0C /* Overcoat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEF5C61C8AA9B0003BB99E /* Overcoat.framework */; };
-		FE0A7A1A1C8AAE60003DAA0C /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEF6091C8AAC94003BB99E /* PromiseKit.framework */; };
-		FE0A7A1C1C8AAEA9003DAA0C /* OVCHTTPSessionManager+PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEEF5B21C899E5C003BB99E /* OVCHTTPSessionManager+PromiseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE0A7A1D1C8AAEA9003DAA0C /* OVCHTTPSessionManager+PromiseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEEF5B31C899E5C003BB99E /* OVCHTTPSessionManager+PromiseKit.m */; };
-		FE0A7A1E1C8AAEA9003DAA0C /* OvercoatPromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEEF5B41C899E5C003BB99E /* OvercoatPromiseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE0A7A2C1C8AAEDB003DAA0C /* OVCHTTPSessionManager+PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEEF5B21C899E5C003BB99E /* OVCHTTPSessionManager+PromiseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE0A7A2D1C8AAEDB003DAA0C /* OVCHTTPSessionManager+PromiseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEEF5B31C899E5C003BB99E /* OVCHTTPSessionManager+PromiseKit.m */; };
-		FE0A7A2E1C8AAEDB003DAA0C /* OvercoatPromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEEF5B41C899E5C003BB99E /* OvercoatPromiseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE0A7A311C8AAEEE003DAA0C /* Overcoat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEF5E71C8AAAA8003BB99E /* Overcoat.framework */; };
-		FE0A7A331C8AAEF2003DAA0C /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEF6041C8AAC7F003BB99E /* PromiseKit.framework */; };
 		FE1041321C8AAFA300C3A1FD /* Overcoat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEF5E71C8AAAA8003BB99E /* Overcoat.framework */; };
 		FE1041441C8AAFA700C3A1FD /* Overcoat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEF5C61C8AA9B0003BB99E /* Overcoat.framework */; };
 		FE1041501C8AAFCE00C3A1FD /* OVCHTTPSessionManager+ReactiveCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEEF5B61C899E5C003BB99E /* OVCHTTPSessionManager+ReactiveCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -165,20 +155,6 @@
 			remoteGlobalIDString = FEEEF5E61C8AAAA8003BB99E;
 			remoteInfo = "Overcoat-iOS";
 		};
-		FE0A7A171C8AAE50003DAA0C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FEEEF4BD1C898AED003BB99E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FEEEF5C51C8AA9B0003BB99E;
-			remoteInfo = "Overcoat-OSX";
-		};
-		FE0A7A2F1C8AAEE6003DAA0C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FEEEF4BD1C898AED003BB99E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FEEEF5E61C8AAAA8003BB99E;
-			remoteInfo = "Overcoat-iOS";
-		};
 		FE10412E1C8AAFA300C3A1FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FEEEF4BD1C898AED003BB99E /* Project object */;
@@ -207,8 +183,6 @@
 		CE7D4B58A080849176995E55 /* Pods-OvercoatTests-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OvercoatTests-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-OvercoatTests-tvOS/Pods-OvercoatTests-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		FE0A79DB1C8AACEB003DAA0C /* OvercoatCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OvercoatCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0A79F61C8AAD96003DAA0C /* OvercoatCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OvercoatCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE0A7A0F1C8AADF7003DAA0C /* OvercoatPromiseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OvercoatPromiseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE0A7A241C8AAED0003DAA0C /* OvercoatPromiseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OvercoatPromiseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE10413C1C8AAFA300C3A1FD /* OvercoatReactiveCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OvercoatReactiveCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE10414E1C8AAFA700C3A1FD /* OvercoatReactiveCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OvercoatReactiveCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE10415D1C8AB06C00C3A1FD /* OvercoatSocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OvercoatSocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -264,9 +238,6 @@
 		FEEEF5AE1C899E5C003BB99E /* OVCManagedStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OVCManagedStore.h; sourceTree = "<group>"; };
 		FEEEF5AF1C899E5C003BB99E /* OVCManagedStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OVCManagedStore.m; sourceTree = "<group>"; };
 		FEEEF5B01C899E5C003BB99E /* OvercoatCoreData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OvercoatCoreData.h; sourceTree = "<group>"; };
-		FEEEF5B21C899E5C003BB99E /* OVCHTTPSessionManager+PromiseKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OVCHTTPSessionManager+PromiseKit.h"; sourceTree = "<group>"; };
-		FEEEF5B31C899E5C003BB99E /* OVCHTTPSessionManager+PromiseKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OVCHTTPSessionManager+PromiseKit.m"; sourceTree = "<group>"; };
-		FEEEF5B41C899E5C003BB99E /* OvercoatPromiseKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OvercoatPromiseKit.h; sourceTree = "<group>"; };
 		FEEEF5B61C899E5C003BB99E /* OVCHTTPSessionManager+ReactiveCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OVCHTTPSessionManager+ReactiveCocoa.h"; sourceTree = "<group>"; };
 		FEEEF5B71C899E5C003BB99E /* OVCHTTPSessionManager+ReactiveCocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OVCHTTPSessionManager+ReactiveCocoa.m"; sourceTree = "<group>"; };
 		FEEEF5B81C899E5C003BB99E /* OvercoatReactiveCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OvercoatReactiveCocoa.h; sourceTree = "<group>"; };
@@ -307,24 +278,6 @@
 			files = (
 				FE0A7A081C8AADC7003DAA0C /* Overcoat.framework in Frameworks */,
 				FE0A7A091C8AADCB003DAA0C /* MTLManagedObjectAdapter.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FE0A7A0B1C8AADF7003DAA0C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE0A7A191C8AAE57003DAA0C /* Overcoat.framework in Frameworks */,
-				FE0A7A1A1C8AAE60003DAA0C /* PromiseKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FE0A7A201C8AAED0003DAA0C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE0A7A311C8AAEEE003DAA0C /* Overcoat.framework in Frameworks */,
-				FE0A7A331C8AAEF2003DAA0C /* PromiseKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,8 +407,6 @@
 				FEEEF5E71C8AAAA8003BB99E /* Overcoat.framework */,
 				FE0A79DB1C8AACEB003DAA0C /* OvercoatCoreData.framework */,
 				FE0A79F61C8AAD96003DAA0C /* OvercoatCoreData.framework */,
-				FE0A7A0F1C8AADF7003DAA0C /* OvercoatPromiseKit.framework */,
-				FE0A7A241C8AAED0003DAA0C /* OvercoatPromiseKit.framework */,
 				FE10413C1C8AAFA300C3A1FD /* OvercoatReactiveCocoa.framework */,
 				FE10414E1C8AAFA700C3A1FD /* OvercoatReactiveCocoa.framework */,
 				FE10415D1C8AB06C00C3A1FD /* OvercoatSocial.framework */,
@@ -470,7 +421,6 @@
 				FEEEF4E01C898BBE003BB99E /* Info.plist */,
 				FEEEF4DF1C898BAB003BB99E /* Core */,
 				FEEEF5A81C899E5C003BB99E /* CoreData */,
-				FEEEF5B11C899E5C003BB99E /* PromiseKit */,
 				FEEEF5B51C899E5C003BB99E /* ReactiveCocoa */,
 				FEEEF5B91C899E5C003BB99E /* Social */,
 			);
@@ -563,16 +513,6 @@
 			path = CoreData;
 			sourceTree = "<group>";
 		};
-		FEEEF5B11C899E5C003BB99E /* PromiseKit */ = {
-			isa = PBXGroup;
-			children = (
-				FEEEF5B21C899E5C003BB99E /* OVCHTTPSessionManager+PromiseKit.h */,
-				FEEEF5B31C899E5C003BB99E /* OVCHTTPSessionManager+PromiseKit.m */,
-				FEEEF5B41C899E5C003BB99E /* OvercoatPromiseKit.h */,
-			);
-			path = PromiseKit;
-			sourceTree = "<group>";
-		};
 		FEEEF5B51C899E5C003BB99E /* ReactiveCocoa */ = {
 			isa = PBXGroup;
 			children = (
@@ -654,24 +594,6 @@
 				FE0A7A001C8AADB1003DAA0C /* OVCManagedModelResponseSerializer.h in Headers */,
 				FE0A79FE1C8AADB1003DAA0C /* OVCManagedHTTPSessionManager.h in Headers */,
 				FE0A7A051C8AADB1003DAA0C /* OvercoatCoreData.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FE0A7A0C1C8AADF7003DAA0C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE0A7A1E1C8AAEA9003DAA0C /* OvercoatPromiseKit.h in Headers */,
-				FE0A7A1C1C8AAEA9003DAA0C /* OVCHTTPSessionManager+PromiseKit.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FE0A7A211C8AAED0003DAA0C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE0A7A2E1C8AAEDB003DAA0C /* OvercoatPromiseKit.h in Headers */,
-				FE0A7A2C1C8AAEDB003DAA0C /* OVCHTTPSessionManager+PromiseKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -782,44 +704,6 @@
 			productReference = FE0A79F61C8AAD96003DAA0C /* OvercoatCoreData.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FE0A7A0E1C8AADF7003DAA0C /* Overcoat+PromiseKit-OSX */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FE0A7A141C8AADF7003DAA0C /* Build configuration list for PBXNativeTarget "Overcoat+PromiseKit-OSX" */;
-			buildPhases = (
-				FE0A7A0A1C8AADF7003DAA0C /* Sources */,
-				FE0A7A0B1C8AADF7003DAA0C /* Frameworks */,
-				FE0A7A0C1C8AADF7003DAA0C /* Headers */,
-				FE0A7A0D1C8AADF7003DAA0C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FE0A7A181C8AAE50003DAA0C /* PBXTargetDependency */,
-			);
-			name = "Overcoat+PromiseKit-OSX";
-			productName = "Overcoat+PromiseKit-OSX";
-			productReference = FE0A7A0F1C8AADF7003DAA0C /* OvercoatPromiseKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FE0A7A231C8AAED0003DAA0C /* Overcoat+PromiseKit-iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FE0A7A291C8AAED0003DAA0C /* Build configuration list for PBXNativeTarget "Overcoat+PromiseKit-iOS" */;
-			buildPhases = (
-				FE0A7A1F1C8AAED0003DAA0C /* Sources */,
-				FE0A7A201C8AAED0003DAA0C /* Frameworks */,
-				FE0A7A211C8AAED0003DAA0C /* Headers */,
-				FE0A7A221C8AAED0003DAA0C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FE0A7A301C8AAEE6003DAA0C /* PBXTargetDependency */,
-			);
-			name = "Overcoat+PromiseKit-iOS";
-			productName = "Overcoat+PromiseKit-iOS";
-			productReference = FE0A7A241C8AAED0003DAA0C /* OvercoatPromiseKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		FE10412C1C8AAFA200C3A1FD /* Overcoat+ReactiveCocoa-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE1041391C8AAFA300C3A1FD /* Build configuration list for PBXNativeTarget "Overcoat+ReactiveCocoa-iOS" */;
@@ -898,12 +782,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FEEEF50E1C898D6C003BB99E /* Build configuration list for PBXNativeTarget "OvercoatTests-OSX" */;
 			buildPhases = (
-				C5F3E8DC657EFE2628D8B22E /* Check Pods Manifest.lock */,
+				C5F3E8DC657EFE2628D8B22E /* [CP] Check Pods Manifest.lock */,
 				FEEEF5021C898D6C003BB99E /* Sources */,
 				FEEEF5031C898D6C003BB99E /* Frameworks */,
 				FEEEF5041C898D6C003BB99E /* Resources */,
-				7FDD896C2B4B034E9B1BE6D9 /* Embed Pods Frameworks */,
-				76688393623171FB1B76F628 /* Copy Pods Resources */,
+				7FDD896C2B4B034E9B1BE6D9 /* [CP] Embed Pods Frameworks */,
+				76688393623171FB1B76F628 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -918,12 +802,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FEEEF5721C8995DA003BB99E /* Build configuration list for PBXNativeTarget "OvercoatTests-iOS" */;
 			buildPhases = (
-				9228A00C647CB2BD14A852C3 /* Check Pods Manifest.lock */,
+				9228A00C647CB2BD14A852C3 /* [CP] Check Pods Manifest.lock */,
 				FEEEF5661C8995DA003BB99E /* Sources */,
 				FEEEF5671C8995DA003BB99E /* Frameworks */,
 				FEEEF5681C8995DA003BB99E /* Resources */,
-				6A6F826A171035064701B804 /* Embed Pods Frameworks */,
-				7AFCDCBC5436155B7B71776D /* Copy Pods Resources */,
+				6A6F826A171035064701B804 /* [CP] Embed Pods Frameworks */,
+				7AFCDCBC5436155B7B71776D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -938,12 +822,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FEEEF58B1C8996F4003BB99E /* Build configuration list for PBXNativeTarget "OvercoatTests-tvOS" */;
 			buildPhases = (
-				470C3723B078BA9C49DBC84D /* Check Pods Manifest.lock */,
+				470C3723B078BA9C49DBC84D /* [CP] Check Pods Manifest.lock */,
 				FEEEF5821C8996F4003BB99E /* Sources */,
 				FEEEF5831C8996F4003BB99E /* Frameworks */,
 				FEEEF5841C8996F4003BB99E /* Resources */,
-				12BECB6422D178911AD0F95B /* Embed Pods Frameworks */,
-				9BD8B8BDA9D5A5311EC3B54D /* Copy Pods Resources */,
+				12BECB6422D178911AD0F95B /* [CP] Embed Pods Frameworks */,
+				9BD8B8BDA9D5A5311EC3B54D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1005,12 +889,6 @@
 					FE0A79F51C8AAD96003DAA0C = {
 						CreatedOnToolsVersion = 7.2;
 					};
-					FE0A7A0E1C8AADF7003DAA0C = {
-						CreatedOnToolsVersion = 7.2;
-					};
-					FE0A7A231C8AAED0003DAA0C = {
-						CreatedOnToolsVersion = 7.2;
-					};
 					FE10415C1C8AB06C00C3A1FD = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -1053,8 +931,6 @@
 				FEEEF5E61C8AAAA8003BB99E /* Overcoat-iOS */,
 				FE0A79DA1C8AACEB003DAA0C /* Overcoat+CoreData-OSX */,
 				FE0A79F51C8AAD96003DAA0C /* Overcoat+CoreData-iOS */,
-				FE0A7A0E1C8AADF7003DAA0C /* Overcoat+PromiseKit-OSX */,
-				FE0A7A231C8AAED0003DAA0C /* Overcoat+PromiseKit-iOS */,
 				FE10413E1C8AAFA700C3A1FD /* Overcoat+ReactiveCocoa-OSX */,
 				FE10412C1C8AAFA200C3A1FD /* Overcoat+ReactiveCocoa-iOS */,
 				FE10416D1C8AB0EB00C3A1FD /* Overcoat+Social-OSX */,
@@ -1072,20 +948,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		FE0A79F41C8AAD96003DAA0C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FE0A7A0D1C8AADF7003DAA0C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FE0A7A221C8AAED0003DAA0C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1173,14 +1035,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		12BECB6422D178911AD0F95B /* Embed Pods Frameworks */ = {
+		12BECB6422D178911AD0F95B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1188,14 +1050,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OvercoatTests-tvOS/Pods-OvercoatTests-tvOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		470C3723B078BA9C49DBC84D /* Check Pods Manifest.lock */ = {
+		470C3723B078BA9C49DBC84D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1203,14 +1065,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		6A6F826A171035064701B804 /* Embed Pods Frameworks */ = {
+		6A6F826A171035064701B804 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1218,14 +1080,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OvercoatTests-iOS/Pods-OvercoatTests-iOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		76688393623171FB1B76F628 /* Copy Pods Resources */ = {
+		76688393623171FB1B76F628 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1233,14 +1095,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OvercoatTests-OSX/Pods-OvercoatTests-OSX-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7AFCDCBC5436155B7B71776D /* Copy Pods Resources */ = {
+		7AFCDCBC5436155B7B71776D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1248,14 +1110,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OvercoatTests-iOS/Pods-OvercoatTests-iOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7FDD896C2B4B034E9B1BE6D9 /* Embed Pods Frameworks */ = {
+		7FDD896C2B4B034E9B1BE6D9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1263,14 +1125,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OvercoatTests-OSX/Pods-OvercoatTests-OSX-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9228A00C647CB2BD14A852C3 /* Check Pods Manifest.lock */ = {
+		9228A00C647CB2BD14A852C3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1278,14 +1140,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		9BD8B8BDA9D5A5311EC3B54D /* Copy Pods Resources */ = {
+		9BD8B8BDA9D5A5311EC3B54D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1293,14 +1155,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OvercoatTests-tvOS/Pods-OvercoatTests-tvOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C5F3E8DC657EFE2628D8B22E /* Check Pods Manifest.lock */ = {
+		C5F3E8DC657EFE2628D8B22E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1328,22 +1190,6 @@
 				FE0A7A041C8AADB1003DAA0C /* OVCManagedStore.m in Sources */,
 				FE0A79FF1C8AADB1003DAA0C /* OVCManagedHTTPSessionManager.m in Sources */,
 				FE0A7A011C8AADB1003DAA0C /* OVCManagedModelResponseSerializer.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FE0A7A0A1C8AADF7003DAA0C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE0A7A1D1C8AAEA9003DAA0C /* OVCHTTPSessionManager+PromiseKit.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FE0A7A1F1C8AAED0003DAA0C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE0A7A2D1C8AAEDB003DAA0C /* OVCHTTPSessionManager+PromiseKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1480,16 +1326,6 @@
 			target = FEEEF5E61C8AAAA8003BB99E /* Overcoat-iOS */;
 			targetProxy = FE0A7A061C8AADBD003DAA0C /* PBXContainerItemProxy */;
 		};
-		FE0A7A181C8AAE50003DAA0C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FEEEF5C51C8AA9B0003BB99E /* Overcoat-OSX */;
-			targetProxy = FE0A7A171C8AAE50003DAA0C /* PBXContainerItemProxy */;
-		};
-		FE0A7A301C8AAEE6003DAA0C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FEEEF5E61C8AAAA8003BB99E /* Overcoat-iOS */;
-			targetProxy = FE0A7A2F1C8AAEE6003DAA0C /* PBXContainerItemProxy */;
-		};
 		FE10412D1C8AAFA300C3A1FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FEEEF5E61C8AAAA8003BB99E /* Overcoat-iOS */;
@@ -1593,103 +1429,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.overcoat.OvercoatCoreData;
 				PRODUCT_NAME = OvercoatCoreData;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		FE0A7A151C8AADF7003DAA0C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = sources/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = com.overcoat.OvercoatPromiseKit;
-				PRODUCT_NAME = OvercoatPromiseKit;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		FE0A7A161C8AADF7003DAA0C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = sources/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = com.overcoat.OvercoatPromiseKit;
-				PRODUCT_NAME = OvercoatPromiseKit;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		FE0A7A2A1C8AAED0003DAA0C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = sources/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.overcoat.OvercoatPromiseKit;
-				PRODUCT_NAME = OvercoatPromiseKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		FE0A7A2B1C8AAED0003DAA0C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = sources/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.overcoat.OvercoatPromiseKit;
-				PRODUCT_NAME = OvercoatPromiseKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2170,24 +1909,6 @@
 			buildConfigurations = (
 				FE0A79FC1C8AAD96003DAA0C /* Debug */,
 				FE0A79FD1C8AAD96003DAA0C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FE0A7A141C8AADF7003DAA0C /* Build configuration list for PBXNativeTarget "Overcoat+PromiseKit-OSX" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FE0A7A151C8AADF7003DAA0C /* Debug */,
-				FE0A7A161C8AADF7003DAA0C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FE0A7A291C8AAED0003DAA0C /* Build configuration list for PBXNativeTarget "Overcoat+PromiseKit-iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FE0A7A2A1C8AAED0003DAA0C /* Debug */,
-				FE0A7A2B1C8AAED0003DAA0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
